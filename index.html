@@ -414,10 +414,10 @@
     <div class="project">
       <h3>RAIN</h3>
       <p class="meta">Retrieval-Augmented Incident Network</p>
-      <p>A retrieval-augmented chatbot built to cut incident resolution time for support engineers. It strips PII out of every question before anything touches a model, searches past incidents for similar cases, and drafts the troubleshooting guidance and the user-facing response, all on approved AI services.</p>
+      <p>A retrieval-augmented chatbot built to cut incident resolution time for support engineers. It strips sensitive info out of every question before anything touches a model, searches past incidents for similar cases, and drafts the troubleshooting guidance and the user-facing response, all on approved AI services.</p>
       <div class="pipe" aria-label="RAIN pipeline">
         <span class="chip">question</span><span class="arrow">&rarr;</span>
-        <span class="chip hot">PII sanitizer</span><span class="arrow">&rarr;</span>
+        <span class="chip hot">sensitive-info sanitizer</span><span class="arrow">&rarr;</span>
         <span class="chip">search past incidents</span><span class="arrow">&rarr;</span>
         <span class="chip hot">grounded answer</span>
       </div>
